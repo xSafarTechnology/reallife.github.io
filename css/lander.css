@@ -1,0 +1,783 @@
+#page-nav, body {
+	min-width: 320px;
+	overflow-x: auto
+}
+#page-nav {
+	background-color: rgba(255,255,255,.94);
+	border-bottom: 1px solid rgb(227, 235, 246, .94)
+}
+.navbar-brand.logo img {
+	width: 220px
+}
+#page-nav a#order_now {
+	display: none;
+}
+#page-nav .navbar-brand {
+	font-family: Gilroy-Black;
+	font-size: 3.4rem;
+	line-height: 1
+}
+#page-nav .nav-link {
+	font-family: Gilroy-Bold;
+	color: #000;
+	font-size: 13.9px;
+	display: inline-block
+}
+#page-nav .nav-link.active {
+	border-bottom: 4px solid #f19d3d;
+	padding-bottom: 4px
+}
+#page-nav+* {
+	margin-top: 81px
+}
+.ps-header, .ps-image {
+	display: inline-block
+}
+.ps-header {
+	font-family: Gilroy-Black
+}
+.ps-header-title {
+	line-height: .9
+}
+h1.ps-header-title {
+	font-size: 2.5rem
+}
+h2.ps-header-title {
+	font-size: 1.8rem
+}
+.ps-header-title-line {
+	border-top-width: 12px;
+	width: 120px;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem
+}
+.ps-body {
+	font-family: Gilroy-Bold;
+	font-size: 1.1rem;
+	line-height: 1.28
+}
+.ps-body ul {
+	-webkit-padding-start: 20px;
+	-moz-padding-start: 20px;
+	padding-inline-start: 20px
+}
+.ps-info-text {
+	font-family: Gilroy-Bold;
+	font-size: 1.45rem;
+	line-height: 1.3;
+	margin-top: 1.4rem
+}
+.ps-list {
+	list-style: none;
+	font-family: Gilroy-SemiBold;
+	font-size: 1.4rem;
+	line-height: 1.15
+}
+.ps-list li::before {
+	content: '\2022';
+	font-weight: 700;
+	font-size: 132%;
+	vertical-align: middle;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em
+}
+.ps-bg-image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+.ps-review {
+	font-family: Gilroy-Medium;
+	font-size: 1rem
+}
+.ps-review p {
+	line-height: 1.2;
+	color: #343a40
+}
+.ps-review .blockquote-footer {
+	font-size: 90%
+}
+.ps-review .fa-star {
+	color: #f8da46;
+	letter-spacing: -4px
+}
+.panel-section-bg-image {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+.btn-shop-now {
+ padding:.6rem 4rem;
+	margin: 1rem 0;
+	border-radius: 0;
+	font-family: Gilroy-Bold;
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+	box-shadow: -3px 3px 18px 0 rgba(0,0,0,.42)
+}
+.btn-shop-now:hover {
+	background-color: #23272b;
+	border-color: #1d2124
+}
+.btn-shop-now:not(:disabled):not(.disabled).active, .btn-shop-now:not(:disabled):not(.disabled):active, .show>.btn-shop-now.dropdown-toggle {
+	background-color: #1d2124;
+	border-color: #171a1d
+}
+#main-header {
+	background-color: #56a5a9;
+	background: url(../images/fancy_bottle.png) center/auto 90% no-repeat;
+	background: url(../images/fancy_bottle.png) center/auto 90% no-repeat, linear-gradient(90deg, #f19d3d 49%, #56a5a9 49%)
+}
+#main-header .mh-part-1 .mh-title-1 {
+	font-family: Gilroy-ExtraBold;
+	font-size: 2.4rem;
+	line-height: 1.1
+}
+#main-header .mh-part-1 .btn-shop-now {
+ padding:.6rem 2.4rem;
+ margin-bottom:.75rem;
+	font-size: 1.5rem
+}
+#main-header .mh-part-1 .mh-money-back-guarantee-label {
+	font-family: Gilroy-SemiBoldItalic;
+	font-size: 1rem
+}
+#main-header .mh-title-2 {
+	font-family: Raleway-BlackItalic;
+	font-size: 2.6rem;
+	line-height: 1.32;
+	-webkit-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+	color: #fff
+}
+#main-header .mh-part-2 .mh-list {
+	list-style: none;
+	font-family: Gilroy-Bold;
+	font-size: 1.4rem;
+	line-height: 2
+}
+#main-header .mh-part-2 .mh-list li::before {
+	content: '';
+	color: #fff;
+	display: inline-block;
+	height: 1.4rem;
+	width: 1.4rem;
+	margin-right: 1rem;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat
+}
+#main-header .mh-part-2 .mh-list li.list-icon-flame::before {
+	background-image: url(../fonts/icon_flame.svg)
+}
+#main-header .mh-part-2 .mh-list li.list-icon-minus::before {
+	background-image: url(../fonts/icon_minus.svg)
+}
+#main-header .mh-part-2 .mh-list li.list-icon-lightning::before {
+	background-image: url(../fonts/icon_lightning.svg)
+}
+#main-header .mh-part-2 .mh-list li.list-icon-leaf::before {
+	background-image: url(../fonts/icon_leaf.svg)
+}
+#main-header .mh-part-2 .mh-list li.list-icon-sun::before {
+	background-image: url(../fonts/icon_sun.svg)
+}
+#main-header .mh-icons .mh-i-icons {
+	max-width: 100%
+}
+#main-header .mh-icons .mh-i-icons img {
+	width: 90%;
+	height: auto
+}
+#main-header .mh-icons .mh-i-nutritional img {
+	fill: #46587a
+}
+#panel-bhb-diagram {
+	background-color: #fff
+}
+#panel-customer-reviews {
+	background-color: #fff
+}
+#panel-why-keto {
+	background-color: #f19d3d
+}
+#panel-bg-bonding {
+	background-image: url(../images/panel_bg_bonding.jpg);
+	background-position: top;
+}
+#panel-proven-results {
+	background-color: #c0472c
+}
+#panel-no-strict-dieting {
+	background-color: #f8da46
+}
+#panel-easy-to-use {
+	background-color: #7c4b82
+}
+#panel-keto-for-you {
+	background-color: #56a5a9
+}
+#panel-why-keto-works {
+	background-color: #fff
+}
+#panel-bg-confident {
+	background-image: url(../images/panel_bg_confident.jpg);
+	background-position: top
+}
+#panel-how-it-works {
+	background-color: #fff
+}
+#panel-how-it-works .ps-info-text {
+	color: #56a5a9
+}
+#panel-what-is-bhb {
+	background-color: #56a5a9
+}
+#panel-ingredient-green-tea {
+	background-color: #f8da46
+}
+#panel-ingredient-garcinia-combogia {
+	background-color: #c0472c
+}
+#panel-ingredient-green-coffee-extract {
+	background-color: #c0472c
+}
+#panel-bg-be-active {
+	background-image: url(../images/panel_bg_be_active.jpg);
+	background-position: top
+}
+#panel-where-to-start {
+	background-color: #fff
+}
+#panel-quality-guarantee {
+	background-color: #f8da46
+}
+#panel-money-back-guarantee {
+	background-color: #fff
+}
+#panel-about-us {
+	background-color: #f19d3d
+}
+#panel-about-us .ps-bg-image {
+	background-image: url(../images/panel_bg_about_us.jpg)
+}
+#panel-about-us .ps-body .h3 {
+	font-size: 1.5rem
+}
+#main-footer {
+	background-color: #000;
+	font-size: 1.1rem;
+	line-height: 1.3;
+	color: #bbb !important;
+	overflow: hidden;
+}
+#main-footer .footer-links li {
+    display: inline-block;
+}
+
+#main-footer .footer-links li span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer-div .footer-menu {
+	padding: 30px 0;
+	border-bottom: 1px solid #8080803d
+}
+.footer-div .footer-menu h3 {
+	font-size: 21px;
+	color: #ddd;
+	font-weight: 600
+}
+.footer-div .footer-menu .quicklink-div .mb-25 {
+	margin-bottom: 25px
+}
+.footer-div .footer-menu .quicklink-div ul {
+	column-count: 2;
+	list-style: none;
+	line-height: 2.8em;
+	padding-left: 5px;
+}
+.footer-div .footer-menu .quicklink-div ul li a {
+	color: #bbb !important
+}
+.footer-div .footer-menu .address-div {
+	padding: 0 0 0 100px;
+	border-left: 2px solid #1f1f1f;
+}
+.footer-div .footer-menu .address-div p {
+	line-height: 1.4em
+}
+.footer-div .footer-menu .address-div .mb-25 {
+	margin-bottom: 25px
+}
+.footer-div .copyright-footer .copyright-footer-top {
+	font-size: 15px;
+	padding: 20px 0 10px;
+	margin: 0;
+	text-align: center
+}
+.footer-div .copyright-footer .copyright-footer-top p {
+	margin: 0;
+	display: inline-block
+}
+.footer-div .copyright-footer .disclaimer-text {
+	font-size: 13px;
+	padding: 0;
+	line-height: 1.3;
+	margin: 0;
+	text-align: center
+}
+.footer-div .copyright-footer .disclaimer-text .res-img {
+	max-height: 70px;
+	width: auto;
+	margin: 0 auto 10px
+}
+.footer-div .copyright-footer .disclaimer-text img {
+	max-height: 90px;
+	margin: 0px 5px 0
+}
+.footer-div .copyright-footer .disclaimer-text .col-lg-1 {
+	padding: 0
+}
+ @media (min-width:576px) {
+#page-nav .navbar-brand {
+	font-size: 4.2rem
+}
+#page-nav+* {
+	margin-top: 94px
+}
+.ps-header-title {
+	line-height: 1
+}
+h1.ps-header-title {
+	font-size: 3rem
+}
+h2.ps-header-title {
+	font-size: 2.2rem
+}
+.ps-header-title-line {
+	border-top-width: 4px;
+	width: 133px;
+	margin-top: 2.2rem;
+	margin-bottom: 2.2rem;
+	background: #17a2b8;
+}
+.ps-body {
+	font-size: 1.3rem;
+	line-height: 1.35
+}
+.ps-info-text {
+	font-size: 1.8rem;
+	line-height: 1.4;
+	margin-top: 2rem
+}
+.ps-list {
+	font-size: 1.7rem
+}
+}
+ @media (min-width:768px) {
+.two-by-two-panel-section-holder .panel-section .container {
+	max-width: 360px
+}
+.two-by-two-panel-section-holder>.row>.panel-section:nth-child(odd) .container {
+	padding-right: 50px
+}
+.two-by-two-panel-section-holder>.row>.panel-section:nth-child(even) .container {
+	padding-left: 50px
+}
+.two-by-two-panel-section-holder>.row>.panel-section:nth-child(odd) .container {
+	margin-right: 0
+}
+.two-by-two-panel-section-holder>.row>.panel-section:nth-child(even) .container {
+	margin-left: 0
+}
+.panel-section-bg-image {
+	height: 400px
+}
+.ps-body p {
+	margin-bottom: 2rem
+}
+.ps-list {
+	line-height: 1.5
+}
+}
+ @media (min-width:992px) {
+.two-by-two-panel-section-holder .panel-section .container {
+	max-width: 470px
+}
+.panel-section-bg-image {
+	height: 600px
+}
+#page-nav>.container, #page-nav>.container-fluid {
+	align-items: baseline
+}
+#page-nav.navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem
+}
+.ps-image {
+	max-height: 360px
+}
+#panel-where-to-start .ps-image {
+	max-height: 490px
+}
+#panel-money-back-guarantee .ps-image {
+	max-height: 300px
+}
+}
+ @media (min-width:1200px) {
+.two-by-two-panel-section-holder .panel-section .container {
+	max-width: 570px
+}
+.panel-section-bg-image {
+	height: 780px
+}
+#panel-bg-bonding {
+	height: 1080px;
+}
+}
+ @media (min-width:992px) and (max-width:1199px) {
+#main-header {
+	background-color: #f19d3d;
+	background: url(../images/fancy_bottle.png) center/auto 78% no-repeat;
+	background: url(../images/fancy_bottle.png) center/auto 78% no-repeat, linear-gradient(90deg, #f19d3d 49%, #56a5a9 49%)
+}
+#main-header>.container {
+	max-width: 100%
+}
+#main-header .mh-part-1 .mh-title-1, #main-header .mh-part-2 .mh-title-2 {
+	font-size: 2.4rem;
+	line-height: 1.1
+}
+#main-header .mh-part-2 .mh-list {
+	font-size: 1.3rem;
+	line-height: 2;
+	-webkit-padding-start: 20px;
+	-moz-padding-start: 20px;
+	padding-inline-start: 20px
+}
+}
+ @media (min-width:768px) and (max-width:991px) {
+#main-header {
+	background-color: #f19d3d;
+	background: url(../images/fancy_bottle.png) center/auto 70% no-repeat;
+	background: url(../images/fancy_bottle.png) center/auto 70% no-repeat, linear-gradient(90deg, #f19d3d 49%, #56a5a9 49%)
+}
+#main-header>.container {
+	max-width: 100%
+}
+#main-header .mh-part-1 .mh-title-1 {
+	font-size: 2rem;
+	line-height: 1
+}
+#main-header .mh-part-2 .mh-title-2 {
+	font-size: 2rem;
+	line-height: 1.1
+}
+#main-header .mh-part-2 .mh-list {
+	font-size: 1.26rem;
+	line-height: 1.4;
+	-webkit-padding-start: 10px;
+	-moz-padding-start: 10px;
+	padding-inline-start: 10px
+}
+#main-header .mh-part-1 .mh-money-back-guarantee-label {
+ font-size:.96rem
+}
+#main-header .mh-part-2 .mh-list li::before {
+	height: 1.26rem;
+	width: 1.26rem;
+ margin-right:.6rem
+}
+#main-header .mh-icons .mh-i-icons {
+	padding-left: 0;
+	padding-right: 0
+}
+}
+ @media (min-width:576px) and (max-width:767px) {
+	 #main-header p.mh-money-back-guarantee-label img{ width:230px;}
+	 #main-header .mh-part-1 {
+    margin-bottom: 50px!important;
+	 }
+.panel-section-bg-image {
+	height: 300px !important;
+}
+#main-header {
+	background-color: #56a5a9;
+	background: -64px 20px/auto 45% no-repeat;
+	background: -64px 20px/auto 45% no-repeat, linear-gradient(172deg, #56a5a9 48%, #f19d3d 48%)
+}
+#main-header .mh-part-1:before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: 308px;
+	height: 292px;
+	left: -80px;
+	background-image: url(../images/fancy_bottle.png);
+	position: absolute;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat
+}
+}
+ @media (max-width:991px) {
+.ps-image {
+	max-height: 170px;
+	padding-bottom: 10px
+}
+}
+ @media (max-width:767px) {
+#panel-about-us .ps-bg-image {
+	min-height: 300px
+}
+#main-header .mh-part-2 .mh-list {
+	font-size: 1.3rem;
+	line-height: 1.5;
+	display: inline-block;
+	-webkit-padding-start: 5px;
+	-moz-padding-start: 5px;
+	padding-inline-start: 5px
+}
+#main-header .mh-part-2 .mh-list li::before {
+	height: 1.3rem;
+	width: 1.3rem;
+ margin-right:.7rem
+}
+}
+ @media (max-width:575px) {
+#page-nav a img {
+	max-width: 155px;
+}
+#page-nav a#order_now {
+	display: block;
+}
+.footer-div .footer-menu .address-div {
+	padding: 0 0 0 20px;
+}
+#main-header {
+	background-color: #56a5a9;
+	background: url(../images/fancy_bottle_mobile.png) -30px 60px/auto 33% no-repeat;
+	background: url(../images/fancy_bottle_mobile.png) -30px 60px/auto 33% no-repeat, linear-gradient(172deg, #56a5a9 44.5%, #f19d3d 44.5%)
+}
+#page-nav + * {
+	margin-top: 93px;
+}
+#main-header .mh-part-1 {
+	margin-bottom: 0!important
+}
+#main-header .mh-part-2 {
+	padding-top: 15px!important
+}
+#main-header .mh-part-1:before {
+	width: 308px;
+	height: 292px;
+	left: -80px
+}
+#main-header .mh-part-1 .mh-title-1 {
+	font-size: 2rem;
+	line-height: 1.1
+}
+#main-header .mh-part-1 .btn-shop-now {
+ margin-bottom:.36rem;
+	font-size: 1.3rem
+}
+#main-header .mh-part-1 .mh-money-back-guarantee-label {
+ font-size:.9rem
+}
+#main-header .mh-title-2 {
+	font-size: 2rem;
+	line-height: 1.2
+}
+#main-header .mh-part-2 .mh-list {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	display: inline-block;
+	-webkit-padding-start: 0;
+	-moz-padding-start: 0;
+	padding-inline-start: 0
+}
+#main-header .mh-part-2 .mh-list li::before {
+	height: 1.2rem;
+	width: 1.2rem;
+ margin-right:.5rem
+}
+#main-header .mh-icons-smallest {
+	margin-top: auto;
+	margin-bottom: auto
+}
+#main-header .mh-icons-smallest .mh-i-certifications img {
+	max-width: 52px
+}
+}
+ @media (max-width:444px) {
+    #main-footer p {
+        font-size: 14px;
+    }
+    #main-footer .footer-links li {
+        font-size: 14px;
+    }
+.mh-title-1.text-white img.maintain {
+	width: 170px;
+}
+.booste-weight {
+	width: 325px;
+}
+.list-text {
+	width: 220px;
+}
+.list-text-1 {
+	width: 250px;
+}
+.list-text-2 {
+	width: 155px;
+}
+.list-text-3 {
+	width: 155px;
+}
+.list-text-4 {
+	width: 207px;
+}
+#main-header {
+	background-color: #56a5a9;
+	background: url(../images/fancy_bottle_mobile.png) -34px 30px/auto 35% no-repeat;
+	background: url(../images/fancy_bottle_mobile.png) -34px 30px/auto 35% no-repeat, linear-gradient(172deg, #56a5a9 43%, #f19d3d 43%)
+}
+}
+ @media (max-width:413px) {
+#main-header {
+	background-color: #f19d3d;
+	background: url(../images/fancy_bottle_mobile.png) -15px 0px/auto 35% no-repeat;
+	background: url(../images/fancy_bottle_mobile.png) -15px 0px/auto 35% no-repeat, linear-gradient(172deg, #f19d3d 40%, #56a5a9 40%)
+}
+#main-header .mh-part-1 {
+	margin-bottom: 10px!important;
+	padding-right: 10px
+}
+#main-header .mh-part-2 {
+	padding-top: 0!important
+}
+#main-header .mh-part-1 .mh-title-1 {
+	font-size: 1.54rem;
+	line-height: 1;
+	margin-bottom: 4px
+}
+#main-header .mh-part-1 .btn-shop-now {
+ padding:.6rem 1.3rem;
+	font-size: 1.08rem
+}
+#main-header .mh-part-1 .mh-money-back-guarantee-label {
+ font-size:.75rem;
+	line-height: 1.3
+}
+#main-header .mh-title-2 {
+	font-size: 1.5rem;
+	line-height: 1.2
+}
+.mh-list-holder {
+	padding-right: 0;
+	padding-left: 12px
+}
+#main-header .mh-part-2 .mh-list {
+	margin-top: 3.5rem!important;
+	font-size: 1.1rem;
+	line-height: 2.1
+}
+#main-header .mh-part-2 .mh-list li::before {
+	height: 1rem;
+	width: 1rem;
+ margin-right:.4rem
+}
+#main-header .mh-money-back-guarantee-label.text-white img{ width:200px; margin-top:10px;}
+}
+ @media (max-width:374px) {
+#main-header {
+	background-color: #56a5a9;
+	background: url(../images/fancy_bottle_mobile.png) -25px 51px/auto 29% no-repeat;
+	background: url(../images/fancy_bottle_mobile.png) -25px 51px/auto 29% no-repeat, linear-gradient(172deg, #56a5a9 41.5%, #f19d3d 41.5%)
+}
+#main-header .mh-part-1 {
+	margin-bottom: 0!important;
+	padding-right: 8px
+}
+#main-header .mh-part-1 .mh-title-1 {
+	font-size: 1.6rem;
+	line-height: 1;
+	margin-bottom: 0
+}
+#main-header .mh-part-1 .btn-shop-now {
+ padding:.56rem 1.2rem;
+	font-size: 1.1rem
+}
+#main-header .mh-part-1 .mh-money-back-guarantee-label {
+ font-size:.73rem;
+	line-height: 1.3
+}
+#main-header .mh-title-2 {
+	font-size: 1.5rem;
+	line-height: 1.2
+}
+.mh-list-holder {
+	padding-right: 0;
+	padding-left: 12px
+}
+#main-header .mh-part-2 .mh-list {
+	margin-top: 2.4rem!important;
+	font-size: 1.1rem;
+	line-height: 1.4
+}
+#main-header .mh-part-2 .mh-list li::before {
+	height: 1rem;
+	width: 1rem;
+ margin-right:.4rem
+}
+}
+#formbottom {
+	margin-top: 48px;
+	background: #273536;
+	border-radius: 10px;
+}
+.custom-title {
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+}
+.emphasis {
+	color: #a2d408;
+}
+.ps-bg-image {
+	padding-bottom: 3em;
+}
+.nav-btn_color {
+	padding: 3px 4px;
+	background-color: #17a2b8;
+	border-color: #17a2b8;
+}
+.order-btn .shipping-text {
+	color: black;
+	font-size: 0.7rem;
+}
+ul.ingredients {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.ingredients li {
+	text-align: center;
+	border-bottom: 1px solid #c9dada;
+	padding: 6px 0;
+}
+.container-patch {
+	padding: 50px 0;
+}

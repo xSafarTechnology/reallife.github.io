@@ -1,0 +1,5 @@
+/*!
+ * Contains the following fonts:
+ * - Raleway-BlackItalic
+ */
+@font-face{font-family:Raleway-BlackItalic;src:url(../fonts/Raleway-BlackItalic.eot);src:url(../fonts/Raleway-BlackItalic.eot#iefix) format('embedded-opentype'),url(../fonts/Raleway-BlackItalic.svg#Raleway-BlackItalic) format('svg'),url(../fonts/Raleway-BlackItalic.ttf) format('truetype'),url(../fonts/Raleway-BlackItalic.woff) format('woff'),url(../fonts/Raleway-BlackItalic.woff2) format('woff2');font-weight:400;font-style:normal}

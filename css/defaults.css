@@ -1,0 +1,10 @@
+/*!
+ * Global defaults.
+ */.text-underline{text-decoration:underline!important}
+ .w-fit-content{width:-webkit-fit-content!important;width:-moz-fit-content!important;width:fit-content!important}
+ .list-bullet-black li::before,
+ .text-black{color:#000}
+ .border-black{border-color: #44589a;}
+ .background-black{border-color:#000}
+ .list-bullet-white li::before,.text-white{color:#fff}.border-white{border-color:#fff}.background-white{border-color:#fff}
+  

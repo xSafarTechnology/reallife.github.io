@@ -1,0 +1,49 @@
+/*!
+
+ * Contains the following fonts:
+
+ * - Gilroy-Black
+
+ * - Gilroy-BlackItalic
+
+ * - Gilroy-Bold
+
+ * - Gilroy-BoldItalic
+
+ * - Gilroy-ExtraBold
+
+ * - Gilroy-ExtraBoldItalic
+
+ * - Gilroy-Heavy
+
+ * - Gilroy-HeavyItalic
+
+ * - Gilroy-Light
+
+ * - Gilroy-LightItalic
+
+ * - Gilroy-Medium
+
+ * - Gilroy-MediumItalic
+
+ * - Gilroy
+
+ * - Gilroy-Italic
+
+ * - Gilroy-SemiBold
+
+ * - Gilroy-SemiBoldItalic
+
+ * - Gilroy-Thin
+
+ * - Gilroy-ThinItalic
+
+ * - Gilroy-UltraLight
+
+ * - Gilroy-UltraLightItalic
+
+ */
+
+
+
+@font-face{font-family:Gilroy;src:url(../fonts/Gilroy.eot);src:url(../fonts/Gilroy.woff2) format('woff2'),url(../fonts/Gilroy.woff) format('woff'),url(../fonts/Gilroy.ttf) format('truetype'),url(../fonts/Gilroy.svg#Gilroy) format('svg'),url(../fonts/Gilroy.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Black;src:url(../fonts/Gilroy-Black.eot);src:url(../fonts/Gilroy-Black.woff2) format('woff2'),url(../fonts/Gilroy-Black.woff) format('woff'),url(../fonts/Gilroy-Black.ttf) format('truetype'),url(../fonts/Gilroy-Black.svg#Gilroy-Black) format('svg'),url(../fonts/Gilroy-Black.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-BlackItalic;src:url(../fonts/Gilroy-BlackItalic.eot);src:url(../fonts/Gilroy-BlackItalic.woff2) format('woff2'),url(../fonts/Gilroy-BlackItalic.woff) format('woff'),url(../fonts/Gilroy-BlackItalic.ttf) format('truetype'),url(../fonts/Gilroy-BlackItalic.svg#Gilroy-BlackItalic) format('svg'),url(../fonts/Gilroy-BlackItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Bold;src:url(../fonts/Gilroy-Bold.eot);src:url(../fonts/Gilroy-Bold.woff2) format('woff2'),url(../fonts/Gilroy-Bold.woff) format('woff'),url(../fonts/Gilroy-Bold.ttf) format('truetype'),url(../fonts/Gilroy-Bold.svg#Gilroy-Bold) format('svg'),url(../fonts/Gilroy-Bold.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-BoldItalic;src:url(../fonts/Gilroy-BoldItalic.eot);src:url(../fonts/Gilroy-BoldItalic.woff2) format('woff2'),url(../fonts/Gilroy-BoldItalic.woff) format('woff'),url(../fonts/Gilroy-BoldItalic.ttf) format('truetype'),url(../fonts/Gilroy-BoldItalic.svg#Gilroy-BoldItalic) format('svg'),url(../fonts/Gilroy-BoldItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-ExtraBold;src:url(../fonts/Gilroy-ExtraBold.eot);src:url(../fonts/Gilroy-ExtraBold.woff2) format('woff2'),url(../fonts/Gilroy-ExtraBold.woff) format('woff'),url(../fonts/Gilroy-ExtraBold.ttf) format('truetype'),url(../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold) format('svg'),url(../fonts/Gilroy-ExtraBold.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-ExtraBoldItalic;src:url(../fonts/Gilroy-ExtraBoldItalic.eot);src:url(../fonts/Gilroy-ExtraBoldItalic.woff2) format('woff2'),url(../fonts/Gilroy-ExtraBoldItalic.woff) format('woff'),url(../fonts/Gilroy-ExtraBoldItalic.ttf) format('truetype'),url(../fonts/Gilroy-ExtraBoldItalic.svg#Gilroy-ExtraBoldItalic) format('svg'),url(../fonts/Gilroy-ExtraBoldItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Heavy;src:url(../fonts/Gilroy-Heavy.eot);src:url(../fonts/Gilroy-Heavy.woff2) format('woff2'),url(../fonts/Gilroy-Heavy.woff) format('woff'),url(../fonts/Gilroy-Heavy.ttf) format('truetype'),url(../fonts/Gilroy-Heavy.svg#Gilroy-Heavy) format('svg'),url(../fonts/Gilroy-Heavy.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-HeavyItalic;src:url(../fonts/Gilroy-HeavyItalic.eot);src:url(../fonts/Gilroy-HeavyItalic.woff2) format('woff2'),url(../fonts/Gilroy-HeavyItalic.woff) format('woff'),url(../fonts/Gilroy-HeavyItalic.ttf) format('truetype'),url(../fonts/Gilroy-HeavyItalic.svg#Gilroy-HeavyItalic) format('svg'),url(../fonts/Gilroy-HeavyItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Italic;src:url(../fonts/Gilroy-Italic.eot);src:url(../fonts/Gilroy-Italic.woff2) format('woff2'),url(../fonts/Gilroy-Italic.woff) format('woff'),url(../fonts/Gilroy-Italic.ttf) format('truetype'),url(../fonts/Gilroy-Italic.svg#Gilroy-Italic) format('svg'),url(../fonts/Gilroy-Italic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Light;src:url(../fonts/Gilroy-Light.eot);src:url(../fonts/Gilroy-Light.woff2) format('woff2'),url(../fonts/Gilroy-Light.woff) format('woff'),url(../fonts/Gilroy-Light.ttf) format('truetype'),url(../fonts/Gilroy-Light.svg#Gilroy-Light) format('svg'),url(../fonts/Gilroy-Light.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-LightItalic;src:url(../fonts/Gilroy-LightItalic.eot);src:url(../fonts/Gilroy-LightItalic.woff2) format('woff2'),url(../fonts/Gilroy-LightItalic.woff) format('woff'),url(../fonts/Gilroy-LightItalic.ttf) format('truetype'),url(../fonts/Gilroy-LightItalic.svg#Gilroy-LightItalic) format('svg'),url(../fonts/Gilroy-LightItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Medium;src:url(../fonts/Gilroy-Medium.eot);src:url(../fonts/Gilroy-Medium.woff2) format('woff2'),url(../fonts/Gilroy-Medium.woff) format('woff'),url(../fonts/Gilroy-Medium.ttf) format('truetype'),url(../fonts/Gilroy-Medium.svg#Gilroy-Medium) format('svg'),url(../fonts/Gilroy-Medium.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-MediumItalic;src:url(../fonts/Gilroy-MediumItalic.eot);src:url(../fonts/Gilroy-MediumItalic.woff2) format('woff2'),url(../fonts/Gilroy-MediumItalic.woff) format('woff'),url(../fonts/Gilroy-MediumItalic.ttf) format('truetype'),url(../fonts/Gilroy-MediumItalic.svg#Gilroy-MediumItalic) format('svg'),url(../fonts/Gilroy-MediumItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-SemiBold;src:url(../fonts/Gilroy-SemiBold.eot);src:url(../fonts/Gilroy-SemiBold.woff2) format('woff2'),url(../fonts/Gilroy-SemiBold.woff) format('woff'),url(../fonts/Gilroy-SemiBold.ttf) format('truetype'),url(../fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold) format('svg'),url(../fonts/Gilroy-SemiBold.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-SemiBoldItalic;src:url(../fonts/Gilroy-SemiBoldItalic.eot);src:url(../fonts/Gilroy-SemiBoldItalic.woff) format('woff'),url(../fonts/Gilroy-SemiBoldItalic.ttf) format('truetype'),url(../fonts/Gilroy-SemiBoldItalic.svg#Gilroy-SemiBoldItalic) format('svg'),url(../fonts/Gilroy-SemiBoldItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-Thin;src:url(../fonts/Gilroy-Thin.eot);src:url(../fonts/Gilroy-Thin.woff2) format('woff2'),url(../fonts/Gilroy-Thin.woff) format('woff'),url(../fonts/Gilroy-Thin.ttf) format('truetype'),url(../fonts/Gilroy-Thin.svg#Gilroy-Thin) format('svg'),url(../fonts/Gilroy-Thin.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-ThinItalic;src:url(../fonts/Gilroy-ThinItalic.eot);src:url(../fonts/Gilroy-ThinItalic.woff2) format('woff2'),url(../fonts/Gilroy-ThinItalic.woff) format('woff'),url(../fonts/Gilroy-ThinItalic.ttf) format('truetype'),url(../fonts/Gilroy-ThinItalic.svg#Gilroy-ThinItalic) format('svg'),url(../fonts/Gilroy-ThinItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-UltraLight;src:url(../fonts/Gilroy-UltraLight.eot);src:url(../fonts/Gilroy-UltraLight.woff2) format('woff2'),url(../fonts/Gilroy-UltraLight.woff) format('woff'),url(../fonts/Gilroy-UltraLight.ttf) format('truetype'),url(../fonts/Gilroy-UltraLight.svg#Gilroy-UltraLight) format('svg'),url(../fonts/Gilroy-UltraLight.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}@font-face{font-family:Gilroy-UltraLightItalic;src:url(../fonts/Gilroy-UltraLightItalic.eot);src:url(../fonts/Gilroy-UltraLightItalic.woff2) format('woff2'),url(../fonts/Gilroy-UltraLightItalic.woff) format('woff'),url(../fonts/Gilroy-UltraLightItalic.ttf) format('truetype'),url(../fonts/Gilroy-UltraLightItalic.svg#Gilroy-UltraLightItalic) format('svg'),url(../fonts/Gilroy-UltraLightItalic.eot#iefix) format('embedded-opentype');font-weight:400;font-style:normal}

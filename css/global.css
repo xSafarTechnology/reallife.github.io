@@ -1,0 +1,34 @@
+/*!
+ * Global CSS include.
+ */
+@import url('defaults.css');
+
+.text-bright-green{
+	color: #4CD964;
+}
+#panel-what-is-ingr {
+	width: 100%;
+	overflow: hidden;
+	background: #eff9f9;
+}
+
+#loading {
+	display: none;
+	justify-content: center;
+	align-items: flex-end;
+	position: absolute;
+	top: 9%;
+	left: 4%;
+	right: 4%;
+	bottom: 9%;
+	z-index: 100;
+	background-color: #ccc;
+	border-radius: 15px;
+	background-image: url(../images/FhHRx.gif);
+	background-repeat: no-repeat;
+	background-position: top 12px center;
+}
+
+#loading.active {
+	display: flex;
+}
